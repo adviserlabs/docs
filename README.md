@@ -1,3 +1,3 @@
 # Docs
 
-For full code examples, see: https://github.com/adviserlabs/demos
+For runnable code examples, see: https://github.com/adviserlabs/demos
