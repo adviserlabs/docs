@@ -10,20 +10,20 @@ Use multiple `--store` flags to specify your Adviser Stores, or the URLs of the 
 ## Usage
 
 ```
-adviser run ls my-adviser-store --store my-adviser-store
+adviser run "ls my-adviser-store" --store my-adviser-store
 ```
 
 ```
-adviser run ls test --store s3://test
+adviser run "ls test" --store s3://test
 ```
 
 ```
-adviser run ls test --store https://<account>.blob.core.windows.net/test
+adviser run "ls test" --store https://<account>.blob.core.windows.net/test
 ```
 
 ```
 adviser cluster create --store my-adviser-store
-adviser run ls my-adviser-store --cluster <id>
+adviser run "ls my-adviser-store" --cluster <id>
 ```
 
 ## Adviser Store
