@@ -17,6 +17,17 @@ $ adviser signup
 $ adviser run your_simulation.py
 ```
 
+## Basic Usage
+
+### Writing Output
+
+Your cloud environment comes with a directory called `adviser_output`. Any files you put there can be fetched with `adviser job download`.
+```
+$ adviser run "your_simulation.py > adviser_output/results.txt"
+$ adviser job download <job-id>
+$ cat adviser_output/<job-id>/results.txt
+```
+
 ## Next Steps
 
 * [Start a Development Cluster](Start%20a%20Development%20Cluster.md)
