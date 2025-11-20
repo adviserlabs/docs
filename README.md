@@ -23,7 +23,7 @@ $ adviser run your_simulation.py
 
 Your cloud environment comes with a directory called `adviser_output`. Any files you put there can be fetched with `adviser job download`.
 ```
-$ adviser run "your_simulation.py > adviser_output/results.txt"
+$ adviser run "python your_simulation.py > adviser_output/results.txt"
 $ adviser job download <job-id>
 $ cat adviser_output/<job-id>/results.txt
 ```
